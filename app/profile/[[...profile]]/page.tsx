@@ -1,4 +1,3 @@
-import { UserProfile } from "@clerk/nextjs";
 import { auth, currentUser } from "@clerk/nextjs/server";
 import React from "react";
 import { redirect } from "next/navigation";

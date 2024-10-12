@@ -201,7 +201,8 @@ export default function FooterWithPopups() {
           <FooterSection title="About Us" onClick={() => openPopup("about")}>
             <p className="text-gray-300 font-light">
               We are a company dedicated to providing innovative solutions for
-              our customers.
+              our customers. Founded in 2010, we&#39;ve been at the forefront of
+              technological advancements.
             </p>
           </FooterSection>
 
