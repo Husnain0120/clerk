@@ -23,12 +23,6 @@ function genId() {
 }
 
 // Directly define the ActionType using string literals
-type ActionType =
-  | "ADD_TOAST"
-  | "UPDATE_TOAST"
-  | "DISMISS_TOAST"
-  | "REMOVE_TOAST";
-
 type Action =
   | {
       type: "ADD_TOAST";
