@@ -198,14 +198,6 @@ export default function FooterWithPopups() {
     <footer className="bg-black text-white py-12 m-4 p-4 rounded-xl relative font-roboto shadow-lg w-[calc(100%-2rem)]">
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <FooterSection title="About Us" onClick={() => openPopup("about")}>
-            <p className="text-gray-300 font-light">
-              We are a company dedicated to providing innovative solutions for
-              our customers. Founded in 2010, we&#39;ve been at the forefront of
-              technological advancements.
-            </p>
-          </FooterSection>
-
           <FooterSection
             title="Contact Us"
             onClick={() => openPopup("contact")}
